@@ -1,0 +1,405 @@
+.container{
+    padding: 1%;
+    width:90%;
+    display: flex;
+    flex-direction: row;
+}
+.central_panel{
+    width: 60%;
+    margin-right: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.header{
+    height: 10%;
+    margin: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 4px solid #F3F3F3;
+}
+.title{
+    height: 30%;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2vw;
+    line-height: 42px;
+    color: #243D6F;
+}
+.ttt{
+    width: 10%;
+    display: flex;
+    flex-direction: row;
+    gap: 25%;
+}
+.search_icon{
+    width: 30%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.Oval{
+    width: 100%;
+    height: 100%;
+    background-image: url("img/2.png");
+    background-position: center,center;
+    background-size: cover;
+}
+.Shape{
+    width: 40%;
+    height: 40%;
+    background-image: url("img/1.png");
+    background-position: center,center;
+    background-size: cover;
+}
+.layout_icon{
+    width: 25%;
+    height: 25%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+#Rectangle-path{
+    width: 4px;
+    height: 4px;      
+    border: 2px solid #8998B4;
+    margin-left: 10%;
+    margin-top: 10%;
+}
+/*RED BLOCK*/
+.box1{
+    height: 90vh;
+    width: 50%; 
+    position:absolute;
+}
+.red_bloc{
+    height: 9vh;
+    background: rgba(133, 118, 237, 0.15);
+    margin-left: 12%;
+    margin-top: 23%;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    width: 88%;
+}
+.text{
+    text-align: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1vw;
+    line-height: 33px;
+    color: #243D6F;
+    height: 9vh;
+    display: flex;
+    align-items: center;
+    margin-left: 5%;
+}
+.Rectangle2{
+    width: 1%;
+    height: 100%;
+    background: #8576ED;
+}
+/*blue_bloc*/
+.blue_bloc{
+    height: 9vh;
+    background: rgba(133, 118, 237, 0.15);
+    margin-left: 12%;
+    margin-top: 36%;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    width: 88%;
+} 
+.text22{
+    text-align: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1vw;
+    line-height: 33px;
+    color: #243D6F;
+    height: 9vh;
+    display: flex;
+    align-items: center;
+    margin-left: 5%;
+}
+.Rectangle3{
+    width: 1%;
+    height: 100%;
+    background: #3D83F9;
+}
+/*orange_bloc*/
+.orange_bloc{
+    height: 9vh;
+    background: rgba(238, 165, 124, 0.15);
+    margin-left: 12%;
+    margin-top: 63%;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    width: 88%;
+}
+.text33{
+    text-align: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1vw;
+    line-height: 33px;
+    color: #243D6F;
+    height: 9vh;
+    display: flex;
+    align-items: center;
+    margin-left: 5%
+}
+.Rectangle4{
+    width: 1%;
+    height: 100%;
+    background: #EEA57C;
+}
+/*lines*/
+.lines{
+    height: 70vh;
+    margin: 5%;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+}
+.hov01{
+    width:100%;  
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1vw;
+    line-height: 30px;
+    color: #A4B0C3;
+    display: flex;
+    flex-direction: row;
+}
+.hov2{
+    width: 100%;
+    height: 5%;
+    box-sizing: border-box;
+    background-color:#F3F3F3;
+    margin-left: 5%;
+    margin-top: 2%
+}
+/*RIGHT */
+.right_panel {
+    width: 40%;
+    background-color: rgba(42, 46, 65, 0.7); 
+}
+.month{
+    height: 12vh;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2vw;
+    line-height: 42px;
+    text-align: center;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+#prev_icon{
+    width: 5%;
+    height: 2vh;
+    background-image: url("img/3.png");
+    background-position: center,center;
+    background-size: cover;
+}
+#next-icon{
+    width: 5%;
+    height: 2vh;
+    background-image: url("img/4.png");
+    background-position: center,center;
+    background-size: cover;
+}
+/*separation */
+.separation{
+    height: 2vh;
+    margin-top: 1%;
+}
+#black{
+    box-sizing: border-box;
+    height: 2px;
+    background: #000000;
+    mix-blend-mode: normal;
+    opacity: 0.17;
+}
+#white{
+    box-sizing: border-box;
+    height: 2px;
+    background: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.13;
+}
+/* calendar*/
+
+.days{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    font-size: 1.5vw;
+    list-style-type: none;
+
+    text-align: center;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+
+    color: #FFFFFF;
+    
+    mix-blend-mode: normal;
+    opacity: 0.6;
+
+    padding: 1%;
+    margin: 1%;
+}
+.days li{
+    width:100%;
+    aspect-ratio: 1;
+    display: grid;
+    align-content: center;
+}
+.days li:hover{
+    background-color: #3D83F9;
+    border-radius: 60%;
+    transition: background-color .6s ease-in-out;
+}
+.days li:nth-child(-n+7){
+font-size: 1vw;
+opacity: 0.6;
+}
+.days li:nth-child(n+39){
+    font-size: 1.5vw;
+    opacity: 0.6;
+    }
+#black{
+    box-sizing: border-box;
+    height: 2px;
+    background: #000000;
+    mix-blend-mode: normal;
+    opacity: 0.17;
+}
+#white{
+    box-sizing: border-box;
+    height: 2px;
+    background: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.13;
+}
+
+/*categories*/
+.categories{
+    height: 21vh;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1vw;
+    line-height: 30px;
+    color: #FFFFFF;
+    padding: 7%;
+}
+.box3{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 6%;
+    gap: 1.5rem;
+}
+
+/* FINANCE*/
+.FINANCE{
+    height: 5vh;
+    width: 40%;
+    box-sizing: border-box;
+    background: #8576ED;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+.FINANCE p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.5vw;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 26px 0px 26px 0px;
+}
+/*management*/
+.management{
+    height: 5vh;
+    width: 40%;
+    box-sizing: border-box;
+    background: #F39946;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.management p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.5vw;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 26px 0px 26px 0px;
+}
+/*design */
+.design {   
+    height: 5vh;
+    width: 40%;
+    box-sizing: border-box;
+    background: #FF467E;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.design p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.5vw;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 26px 0px 26px 0px;
+    grid-template-columns: repeat(1fr 2);
+}
+
+@media screen and (max-width:2000px){
+    .red_bloc{margin-top:28%;}
+    .blue_bloc{margin-top: 44%;}
+    .orange_bloc{margin-top: 75%;}
+}
+
+@media screen and (max-width:1700px){
+    .red_bloc{margin-top:30%;}
+    .blue_bloc{margin-top: 48%;}
+    .orange_bloc{margin-top: 80%;}
+}
+@media screen and (max-width:1500px){
+    .red_bloc{margin-top:30%;}
+    .blue_bloc{margin-top: 49%;}
+    .orange_bloc{margin-top: 84%;}
+}
+@media screen and (max-width:1300px){
+    .red_bloc{margin-top:34%;}
+    .blue_bloc{margin-top: 55%;}
+    .orange_bloc{margin-top: 85%;}
+}
